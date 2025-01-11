@@ -84,7 +84,7 @@ jupyter notebook CreditCardFraudDetection.ipynb
 ```
 
 ## View Results
-- After running the cells in the notebook, it will display the classification report and confusion matrix for evaluation the model's performance.
+- After running the cells in the notebook, it will display the classification report and confusion matrix for evaluating the model's performance.
 
 ## Future Improvements
 - Additional Models: Experiment with other machine learning models like Logistic Regression
