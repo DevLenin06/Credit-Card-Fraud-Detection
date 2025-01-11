@@ -64,8 +64,8 @@ weighted avg       0.79      0.81      0.79      9000
 
 
 ### 6. visualization
-- **Bar Plots: For visualizing the counts of categorical features (`SEX`, `EDUCATION`, etc.) against the target variable `default.payment.next.month`.
-- **Pie Chart: Displayed the imbalance between the two classes (default vs. non-default)
+- Bar Plots: For visualizing the counts of categorical features (`SEX`, `EDUCATION`, etc.) against the target variable `default.payment.next.month`.
+- Pie Chart: Displayed the imbalance between the two classes (default vs. non-default)
 
 ## How to Use This Project
 
@@ -84,14 +84,14 @@ jupyter notebook CreditCardFraudDetection.ipynb
 ```
 
 ## View Results
-- **After running the cells in the notebook, it will display the classification report and confusion matrix for evaluation the model's performance.
+- After running the cells in the notebook, it will display the classification report and confusion matrix for evaluation the model's performance.
 
 ## Future Improvements
-- **Additional Models: Experiment with other machine learning models like Logistic Regression
-- **Feature Engineering: Introduce additional features that could improve model performance.
+- Additional Models: Experiment with other machine learning models like Logistic Regression
+- Feature Engineering: Introduce additional features that could improve model performance.
 
 ## Conclusion
-- **This project demonstrates how a Random Forest Classifier can be used to predict credit defaults based on customer information. By focusing on important features like bill amounts, payment history, and demographic data, I can identify high-risk customers and reduce financial risks for banks and other institutions.
+- This project demonstrates how a Random Forest Classifier can be used to predict credit defaults based on customer information. By focusing on important features like bill amounts, payment history, and demographic data, I can identify high-risk customers and reduce financial risks for banks and other institutions.
 
 
 
