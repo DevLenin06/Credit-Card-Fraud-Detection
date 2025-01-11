@@ -53,8 +53,6 @@ The features in the dataset include:
 - **Confusion Matrix**: To evaluate the model’s performance by checking the true positives, false positives, and other metrics.
 
 ### 5. Results
-
-```plaintext
               precision    recall  f1-score   support
 
            0       0.84      0.94      0.89      7040
@@ -64,34 +62,38 @@ The features in the dataset include:
    macro avg       0.73      0.65      0.67      9000
 weighted avg       0.79      0.81      0.79      9000
 
-```plaintext
 
-### 6. Visualization
-Bar Plots: For visualizing the counts of categorical features (SEX, EDUCATION, etc.) against the target variable default.payment.next.month.
-Pie Chart: Displayed the imbalance between the two classes (default vs. non-default).
-How to Use This Project
-Clone the Repository:
+### 6. visualization
+- **Bar Plots: For visualizing the counts of categorical features (`SEX`, `EDUCATION`, etc.) against the target variable `default.payment.next.month`.
+- **Pie Chart: Displayed the imbalance between the two classes (default vs. non-default)
 
-bash
-Copy code
+##How to Use This Project
+
+### Clone the Repository:
+```bash
 git clone https://github.com/yourusername/credit-default-prediction.git
 cd credit-default-prediction
-Install Required Libraries: Create a virtual environment (optional but recommended) and install the required libraries using pip:
-
-bash
-Copy code
+```
+### Install Required Libraries: 
+```bash
 pip install -r requirements.txt
-Run the Model: Ensure the dataset (credit.csv) is in the same directory and run the script credit_default_prediction.py:
+```
+###Run Model:
+```bash
+jupyter notebook CreditCardFraudDetection.ipynb
+```
 
-bash
-Copy code
-python credit_default_prediction.py
-View Results: The script will print out the classification report and confusion matrix for evaluating the model’s performance.
+###View Results
+- **After running the cells in the notebook, it will display the classification report and confusion matrix for evaluation the model's performance.
 
-Future Work
-Addressing Imbalance: Implement techniques such as SMOTE (Synthetic Minority Oversampling Technique) or downsampling to handle the class imbalance and improve recall.
-Model Tuning: Explore hyperparameter tuning to optimize the Random Forest model.
-Additional Models: Experiment with other machine learning models like Logistic Regression, SVM, or XGBoost.
-Feature Engineering: Introduce additional features or transformations that might improve model performance.
-Conclusion
-This project demonstrates how a Random Forest Classifier can be used to predict credit defaults based on customer information. By focusing on important features like bill amounts, payment history, and demographic data, we can identify high-risk customers and reduce financial risks for banks and financial institutions.
+### Future Improvements
+- **Additional Models: Experiment with other machine learning models like Logistic Regression
+- **Feature Engineering: Introduce additional features that could improve model performance.
+
+###Conclusion
+- **This project demonstrates how a Random Forest Classifier can be used to predict credit defaults based on customer information. By focusing on important features like bill amounts, payment history, and demographic data, I can identify high-risk customers and reduce financial risks for banks and other institutions.
+
+
+
+
+
