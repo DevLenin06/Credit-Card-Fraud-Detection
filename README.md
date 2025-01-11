@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection
+# Credit Card Default Detection
 ## Overview
 
 This project focuses on predicting the likelihood of a credit card holder defaulting on their payment in the next month. The model is based on demographic and financial information such as age, education, marital status, bill amounts, and payment history. The goal is to predict whether a customer will default (1) or not (0), based on the available features.
